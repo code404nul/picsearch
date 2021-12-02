@@ -1,4 +1,6 @@
 #by code.sleep
+#merci d'installé les 3 module ci desssous
+# ci vous voulez plus de temps, dans la ligne 44 je vous fait attandre 3 seconde vous pouvez teleharge les version fast ou supprimer le module time et la ligne.merci
 import cv2
 import pytesseract
 import time
@@ -39,8 +41,7 @@ finaltext = google + text
 
 print (text)
 
-print ("generate")
-time.sleep (2)
+time.sleep (3)
 print (finaltext)
 
 print ("ps: is pic-search, and is he thank you")
